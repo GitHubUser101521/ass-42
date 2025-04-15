@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  background-color: #1f1e1e;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 52.083vw;
+  height: 32.5vw;
+  background-color: #000000;
+  border-radius: 20px;
+  position: relative;
+}
+
+.phone-img {
+  width: 20.521vw;
+  height: 29.479vw;
+  position: absolute;
+  bottom: 0;
+  right: 1.719vw;
+}
+
+.text-div {
+  padding: 4.688vw;
+  width: 17.656vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.781vw;
+  justify-items: center;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+.header {
+  font-size: 2.188vw;
+  color: white;
+  margin: 0;
+}
+
+.text-20px {
+  font-size: 1.042vw;
+  color: #86868b;
+  margin: 0;
+}
+
+.text-18px {
+  font-size: 0.98vw;
+  color: #86868b;
+  width: 18.438vw;
+}
+
+.bold {
+  font-weight: bold;
+  color: white;
+}
