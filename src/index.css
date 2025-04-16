@@ -39,6 +39,7 @@ body {
 p {
   font-family: "Inter", sans-serif;
   font-weight: 700;
+  color: #86868b;
 }
 
 .header {
@@ -47,19 +48,67 @@ p {
   margin: 0;
 }
 
-.text-20px {
+.sub-header {
   font-size: 1.042vw;
   color: #86868b;
   margin: 0;
 }
 
-.text-18px {
+.text-pc {
   font-size: 0.98vw;
   color: #86868b;
   width: 24vw;
 }
 
+.text-mb {
+  color: #86868b;
+  display: none;
+  font-size: 2.5vw;
+  margin: 0;
+}
+
 .bold {
   font-weight: bold;
   color: white;
+}
+
+@media screen and (max-width: 720px) {
+  .content {
+    width: 83.333vw;
+    height: 85.938vh;
+  }
+
+  .phone-img {
+    right: 7.5vw;
+    width: 54.861vw;
+    height: 44.219vh;
+  }
+
+  .text-div {
+    padding: 3.281vh 8.75vw;
+    width: fit-content;
+  }
+
+  .text-mb {
+    display: block;
+  }
+
+  .text-pc {
+    display: none;
+  }
+
+  .sub-header {
+    font-size: 2.778vw;
+    margin-bottom: 1.328vh;
+  }
+
+  .header {
+    font-size: 5.833vw;
+    width: 47.083vw;
+    margin-bottom: 3.281vh;
+  }
+
+  .text-div {
+    gap: 0;
+  }
 }
