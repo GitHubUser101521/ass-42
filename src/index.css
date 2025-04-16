@@ -28,9 +28,8 @@ body {
 }
 
 .text-div {
-  padding: 4.688vw;
+  padding: 4.688vw 0 4.688vw 4.688vw;
   width: 17.656vw;
-  height: 100%;
   display: flex;
   flex-direction: column;
   gap: 0.781vw;
@@ -57,7 +56,7 @@ p {
 .text-18px {
   font-size: 0.98vw;
   color: #86868b;
-  width: 18.438vw;
+  width: 24vw;
 }
 
 .bold {
